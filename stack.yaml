@@ -1,0 +1,10 @@
+resolver: lts-13.15
+
+packages:
+- .
+- /src/language-typescript/
+- /src/language-kotlin
+
+#extra-deps:
+#- git: git@github.com:dvekeman/language-typescript.git
+#  commit: a9083ee92fd55168942079a1f9e9d264b3d211cd
