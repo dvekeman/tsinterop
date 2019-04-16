@@ -3,7 +3,7 @@ resolver: lts-13.15
 packages:
 - .
 - /src/language-typescript/
-- /src/language-kotlin
+- /src/language-kotlin-definition
 
 #extra-deps:
 #- git: git@github.com:dvekeman/language-typescript.git
