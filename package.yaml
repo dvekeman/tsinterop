@@ -26,6 +26,8 @@ dependencies:
 - parsec
 - pretty
 - text
+- pathwalk
+- filepath
 
 library:
   source-dirs: src
@@ -44,8 +46,6 @@ executables:
     dependencies:
     - tsinterop
     - turtle
-    - pathwalk
-    - filepath
 
 tests:
   tsinterop-test:
